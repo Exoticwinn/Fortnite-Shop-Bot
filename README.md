@@ -2,7 +2,7 @@
 
 Telegram-бот для просмотра актуального магазина Fortnite с интеграцией REST API.
 
-**Автор:** [Хуаде Руслан]
+**Автор:** Хуаде Руслан
 
 ## Описание
 
@@ -89,7 +89,7 @@ python test_bot.py
 
 Нашли баг или есть идея?
 
-- Email: [rus.khuade@inbox.ru]
+- Email: rus.khuade@inbox.ru
 
 ## Полезные ссылки
 

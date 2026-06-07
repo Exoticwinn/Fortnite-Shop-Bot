@@ -109,4 +109,3 @@ python test_bot.py
 
 ---
 
-**Лицензия:** MIT

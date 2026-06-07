@@ -42,15 +42,7 @@ pip install -r requirements.txt
 
 1. Найдите [@BotFather](https://t.me/botfather) в Telegram
 2. Создайте бота командой `/newbot`
-3. Скопируйте токен и установите переменную окружения:
-
-```bash
-# Windows
-set TELEGRAM_TOKEN=ваш_токен_бота
-
-# macOS/Linux
-export TELEGRAM_TOKEN=ваш_токен_бота
-```
+3. Скопируйте токен и установите переменную окружения
 
 ### Запуск
 

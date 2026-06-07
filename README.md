@@ -28,8 +28,6 @@ pip install -r requirements.txt
 set TELEGRAM_TOKEN=ваш_токен_бота
 ```
 
-Или используйте файл `.env` (если хотите), но в текущей версии проект читает переменную окружения `TELEGRAM_TOKEN`.
-
 ## Запуск
 
 ```bash
@@ -51,15 +49,23 @@ python main.py
 - os — работа с переменными окружения для безопасного хранения токенов
 
 ## Референсы, которые мне пригодятся
-- [pyTelegramBotAPI Documentation](https://github.com/eternnoir/pyTelegramBotAPI) — полная документация по методам и обработчикам сообщений
+- [pyTelegramBotAPI Documentation] — полная документация по методам и обработчикам сообщений
 - [Fortnite API](https://fortnite-api.com/) — документация API для получения данных магазина и предметов
-- [Telegram Bot Best Practices](https://core.telegram.org/bots/features) — рекомендации по разработке ботов
+- [Telegram Bot Best Practices]
+
+## Тестирование
+
+```bash
+# Запусти простые тесты
+python test_bot.py
+```
+
+Файлы для тестирования:
+- `test_bot.py` — простые тесты
+- `CHECKLIST.md` — чек-лист что проверить
+- `HOW_TO_TEST.md` — как тестировать
 
 ## Гайды-статьи, где есть полезная для меня информация
-- Обработка сообщений и команд в боте... [Message Handlers](https://github.com/eternnoir/pyTelegramBotAPI#message-handlers)
+- Обработка сообщений и команд в боте... [Message Handlers]
 - Асинхронные запросы к внешним API... [Requests Documentation](https://docs.python-requests.org/en/latest/)
-- Управление токенами и конфиденциальными данными... [Environment Variables Best Practices](https://12factor.net/config)
-
-## Примечание
-
-В `config.py` токен не хранится напрямую, чтобы не попадать в репозиторий. Замените `your_bot_token_here` на свой токен в переменной `TELEGRAM_TOKEN`.
+- Управление токенами и конфиденциальными данными... [Environment Variables Best Practices]
